@@ -1,9 +1,11 @@
 package koschei.models;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
+@Scope("singleton")
 public class Ocean1 {
 
     @Autowired
